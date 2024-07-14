@@ -1,0 +1,441 @@
+.scholrrank2pngIcon {
+  width: 596px;
+  position: relative;
+  border-radius: var(--br-mini);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  max-width: 100%;
+}
+.gradient {
+  height: 4px;
+  width: 60px;
+  position: absolute;
+  margin: 0 !important;
+  top: 130px;
+  left: 0;
+  background: linear-gradient(90deg, #f0ec03, #ac6320);
+}
+.scholarrank {
+  color: var(--color-peru-200);
+}
+.educationWithScholarranks,
+.scholarrankEmpowerYour,
+.technology {
+  margin: 0;
+}
+.scholarrankEmpowerYourContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 39.6px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+}
+.icon {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.featureIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.aiDrivenTestScheduling {
+  position: relative;
+  line-height: 20px;
+}
+.featureDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 105%;
+  flex-shrink: 0;
+}
+.ensuringEfficientAnd {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+}
+.item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-5);
+  max-width: 100%;
+}
+.icon1 {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.intuitiveTestCreation {
+  position: relative;
+  line-height: 20px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 104%;
+  flex-shrink: 0;
+}
+.streamliningTheTestMaking {
+  position: relative;
+  font-size: var(--font-size-sm-8);
+  line-height: 20px;
+}
+.item1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-5);
+  max-width: 100%;
+  font-size: var(--font-size-sm-7);
+}
+.icon2 {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.realTimeNotificationsStude {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -55.8px;
+  line-height: 20px;
+}
+.themInformedAnd {
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+}
+.icon3,
+.item2,
+.themInformedAnd {
+  position: relative;
+}
+.item2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-4) 0 0;
+  gap: var(--gap-10xs-9);
+}
+.icon3 {
+  width: 11px;
+  height: 11.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.studentTailoredLearningEna {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -69.7px;
+  line-height: 20px;
+}
+.supportiveLearningEnvironmen {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+}
+.icon4,
+.item3 {
+  position: relative;
+}
+.item3 {
+  align-self: stretch;
+  height: 40.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-4) 0 var(--padding-3xl-9);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+}
+.icon4 {
+  width: 11px;
+  height: 11.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.customizableExamSettings {
+  position: relative;
+  line-height: 20px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 108%;
+  flex-shrink: 0;
+}
+.differentTeachingStyles {
+  position: relative;
+  line-height: 20px;
+}
+.item4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-5);
+  max-width: 100%;
+}
+.icon5 {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.smartAnalyticsProvides {
+  position: relative;
+  line-height: 20px;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 110%;
+  flex-shrink: 0;
+}
+.performanceAndProgress {
+  position: relative;
+  line-height: 20px;
+}
+.item5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-5);
+  max-width: 100%;
+}
+.icon6 {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.secureExamEnvironment {
+  position: relative;
+  line-height: 20px;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.maintainingAcademicIntegrity {
+  position: relative;
+  font-size: var(--font-size-sm-9);
+  line-height: 20px;
+}
+.item6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-5);
+}
+.icon7 {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.secureExamEnvironment1 {
+  position: relative;
+  line-height: 20px;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.maintainingAcademicIntegrity1 {
+  position: relative;
+  font-size: var(--font-size-sm-9);
+  line-height: 20px;
+}
+.item7,
+.list {
+  flex-direction: column;
+}
+.item7 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-5);
+}
+.list {
+  flex: 1;
+  padding: 0 var(--padding-12xs) 0 var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.list,
+.listWrapper,
+.scholarRankDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.listWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) 0 var(--padding-57xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm-8);
+  font-family: var(--font-roboto);
+}
+.scholarRankDescription {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xl-2);
+}
+.gradientParent {
+  flex: 1;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 433px;
+}
+.gradientParent,
+.scholarRankContent,
+.scholarRankContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.scholarRankContent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-73xl);
+}
+.scholarRankContentWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) var(--padding-25xl-3) var(--padding-lg);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1325px) {
+  .scholrrank2pngIcon {
+    flex: 1;
+  }
+  .scholarRankContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .scholarrankEmpowerYourContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .listWrapper {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .scholarRankDescription {
+    gap: var(--gap-mini);
+  }
+  .gradientParent {
+    min-width: 100%;
+  }
+  .scholarRankContent {
+    gap: var(--gap-27xl);
+  }
+  .scholarRankContentWrapper {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .scholarrankEmpowerYourContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+  .scholarRankContent {
+    gap: var(--gap-4xl);
+  }
+}

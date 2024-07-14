@@ -1,0 +1,489 @@
+.getInTouch {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 39.6px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.overlay {
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 160.6px;
+  left: 189.6px;
+  background: linear-gradient(90deg, #f9fe00, #959800);
+}
+.pleaseFillOut {
+  position: relative;
+  line-height: 23px;
+}
+.name {
+  width: 43px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-base-9);
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.input {
+  width: 301px;
+  background-color: var(--color-peru-200);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-xs) var(--padding-7xs);
+}
+.email {
+  position: relative;
+  display: inline-block;
+  min-width: 38px;
+}
+.input1,
+.nameEmailInputs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.input1 {
+  width: 301px;
+  background-color: var(--color-peru-200);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-xs) var(--padding-6xs);
+}
+.nameEmailInputs {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.message {
+  position: relative;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 63px;
+}
+.formContainer1,
+.messageField,
+.textarea {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textarea {
+  background-color: var(--color-peru-200);
+  border: 1px solid var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-xs) var(--padding-55xl);
+}
+.formContainer1,
+.messageField {
+  flex-direction: column;
+}
+.formContainer1 {
+  gap: var(--gap-mini);
+  font-size: var(--font-size-base-3);
+  color: var(--color-white);
+}
+.messageField {
+  gap: var(--gap-41xl-5);
+}
+.sendMessage {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  color: var(--color-peru-200);
+  text-align: center;
+  display: inline-block;
+  min-width: 127px;
+}
+.button,
+.formContainer,
+.formFields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--color-peru-200);
+  padding: var(--padding-sm) var(--padding-14xl) var(--padding-sm)
+    var(--padding-16xl);
+  background-color: transparent;
+  border-radius: var(--br-6xl);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-peru-300);
+  border: 1px solid var(--color-peru-100);
+  box-sizing: border-box;
+}
+.formContainer,
+.formFields {
+  flex-direction: column;
+}
+.formFields {
+  align-self: stretch;
+  gap: var(--gap-26xl);
+}
+.formContainer {
+  width: 696px;
+  padding: var(--padding-sm-5) 0 0;
+  box-sizing: border-box;
+  min-width: 696px;
+  max-width: 100%;
+}
+.heading3,
+.icon {
+  position: relative;
+}
+.heading3 {
+  line-height: 22px;
+  display: inline-block;
+  min-width: 113px;
+}
+.icon {
+  width: 8.6px;
+  height: 15.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addressIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.address {
+  position: relative;
+  line-height: 21.43px;
+  display: inline-block;
+  min-width: 57.5px;
+}
+.addressBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+}
+.coSukan,
+.nahasRupauliNorth {
+  margin: 0;
+}
+.coSukanContainer {
+  position: relative;
+  line-height: 21.43px;
+  color: var(--color-midnightblue);
+  flex-shrink: 0;
+}
+.addressContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-3);
+}
+.icon1 {
+  width: 11.8px;
+  height: 15.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phoneIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.phone {
+  position: relative;
+  line-height: 21.43px;
+  display: inline-block;
+  min-width: 46.3px;
+}
+.phoneBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+}
+.phoneNumber {
+  position: relative;
+  font-size: var(--font-size-mini-6);
+  line-height: 21.43px;
+  color: var(--color-midnightblue);
+  display: inline-block;
+  min-width: 111.6px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.phoneContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-3);
+}
+.icon2 {
+  width: 15px;
+  height: 15.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emailIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.email1 {
+  position: relative;
+  line-height: 21.43px;
+  display: inline-block;
+  min-width: 39.7px;
+  flex-shrink: 0;
+}
+.emailBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.supportinvithisoftwarecom {
+  position: relative;
+  font-size: var(--font-size-mini-8);
+  line-height: 22px;
+  color: var(--color-midnightblue);
+  white-space: nowrap;
+}
+.contactDetails,
+.emailContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.emailContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-3xs-3);
+}
+.contactDetails {
+  gap: var(--gap-xl-7);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.contactDetails,
+.contactInfo,
+.formAndInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.contactInfo {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-26xl-6);
+  min-width: 251.6px;
+  font-size: var(--font-size-xl);
+  color: var(--color-peru-200);
+  font-family: var(--font-raleway);
+}
+.formAndInfo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.logosfacebookIcon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.itemLink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.skillIconslinkedin {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.itemLink1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.skillIconsinstagram {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.itemLink2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contactFormContainer,
+.footer,
+.list,
+.socialLinks {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.list {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-363xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.contactFormContainer,
+.footer,
+.socialLinks {
+  justify-content: flex-start;
+}
+.socialLinks {
+  width: 1026.4px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.contactFormContainer,
+.footer {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xl-4);
+  flex-shrink: 0;
+  font-size: var(--font-size-base-9);
+  color: var(--color-midnightblue);
+  font-family: var(--font-roboto);
+}
+.footer {
+  background-color: var(--color-lightcyan);
+  overflow: hidden;
+  padding: var(--padding-90xl-8) var(--padding-130xl) var(--padding-86xl)
+    var(--padding-170xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-peru-200);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1325px) {
+  .contactInfo,
+  .formContainer {
+    flex: 1;
+  }
+  .formAndInfo,
+  .list {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .formContainer {
+    min-width: 100%;
+  }
+  .list {
+    padding-left: var(--padding-172xl);
+    padding-right: var(--padding-172xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .getInTouch {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .nameEmailInputs {
+    flex-wrap: wrap;
+  }
+  .messageField {
+    gap: var(--gap-11xl);
+  }
+  .formFields {
+    gap: var(--gap-3xl);
+  }
+  .footer,
+  .list {
+    box-sizing: border-box;
+  }
+  .list {
+    padding-left: var(--padding-76xl);
+    padding-right: var(--padding-76xl);
+  }
+  .footer {
+    padding: var(--padding-52xl) var(--padding-55xl) var(--padding-49xl)
+      var(--padding-75xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouch {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+  .messageField {
+    gap: var(--gap-mini);
+  }
+  .heading3 {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .contactInfo {
+    gap: var(--gap-4xl);
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

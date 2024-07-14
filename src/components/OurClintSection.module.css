@@ -1,0 +1,115 @@
+.whatOurClients {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+}
+.gradient {
+  height: 4px;
+  width: 55.8px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -3.6px;
+  left: 185.8px;
+  background: linear-gradient(90deg, #f5f601, #ac6320);
+}
+.testimonialContent,
+.testimonialContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonialContent {
+  justify-content: flex-start;
+  position: relative;
+}
+.testimonialContentWrapper {
+  width: 1022px;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.ourClintSection,
+.testimonials,
+.whatOurClintSay {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.testimonials {
+  width: 1021px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px 147px;
+  min-height: 303px;
+  text-align: left;
+  font-size: var(--font-size-sm-9);
+  font-family: var(--font-roboto);
+}
+.ourClintSection,
+.whatOurClintSay {
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.whatOurClintSay {
+  margin-top: -65px;
+  flex: 1;
+  background-color: var(--color-whitesmoke);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-90xl-8) var(--padding-xl) var(--padding-77xl-6);
+  gap: var(--gap-85xl-8);
+}
+.ourClintSection {
+  align-self: stretch;
+  height: 524px;
+  background-color: var(--color-lightcyan);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 var(--padding-6xs);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1325px) {
+  .testimonials {
+    gap: var(--gap-54xl);
+  }
+}
+@media screen and (max-width: 1125px) {
+  .whatOurClintSay {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .whatOurClients {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .testimonials {
+    gap: var(--gap-18xl);
+  }
+  .whatOurClintSay {
+    gap: var(--gap-7xl);
+    padding-top: var(--padding-52xl);
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatOurClients {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+  .testimonials {
+    gap: var(--gap-lg);
+  }
+}

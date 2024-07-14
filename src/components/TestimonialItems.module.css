@@ -1,0 +1,61 @@
+.p6jpgIcon {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.commodoNibhAnte,
+.consecteturAdipiscingElit,
+.dapibusLeoNec,
+.dolorFeugiatAt,
+.loremIpsumDolor {
+  margin: 0;
+}
+.loremIpsumDolorContainer1 {
+  width: 100%;
+}
+.loremIpsumDolorContainer {
+  margin: 0;
+  width: 233.6px;
+  height: 100px;
+  position: relative;
+  line-height: 20px;
+  display: flex;
+  font-style: italic;
+  align-items: center;
+  flex-shrink: 0;
+}
+.johnDoe {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 21.43px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 74.6px;
+}
+.p6,
+.testimonialItems {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.p6 {
+  width: 162px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-12xs-8);
+  box-sizing: border-box;
+  gap: var(--gap-3xs-2);
+}
+.testimonialItems {
+  flex-direction: row;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-sm-9);
+  color: var(--color-midnightblue);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,280 @@
+.gradient {
+  height: 4px;
+  width: 60px;
+  position: absolute;
+  margin: 0 !important;
+  top: 209.2px;
+  left: 0;
+  background: linear-gradient(90deg, #f5f601, #ac6320);
+}
+.cuttingEdgeSolutionsFor,
+.empoweringRestaurantsWith,
+.enhancedCustomer,
+.experiences,
+.seamlessOperationsAnd {
+  margin: 0;
+}
+.empoweringRestaurantsWithContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 39.6px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.icon {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.restaurantFeatureIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.streamliningMenuManagement {
+  position: relative;
+  line-height: 20px;
+}
+.restaurantFeatureDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.promptly,
+.updateMenusIn {
+  margin: 0;
+}
+.updateMenusInContainer {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-21xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-12xs-6);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.icon1 {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.orderManagementBenefits {
+  position: relative;
+  line-height: 20px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.customerExperiences,
+.processingReducingErrors {
+  margin: 0;
+}
+.processingReducingErrorsContainer {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs-1) 0 var(--padding-21xl-4);
+  box-sizing: border-box;
+  gap: var(--gap-12xs-5);
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+}
+.icon2 {
+  width: 11px;
+  height: 11.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-4);
+}
+.optimizingTableManagement {
+  position: relative;
+  line-height: 20px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.reservations,
+.restaurantCapacityThrough {
+  margin: 0;
+}
+.restaurantCapacityThroughContainer {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  max-width: 100%;
+}
+.item2,
+.list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.item2 {
+  gap: var(--gap-12xs-5);
+  flex-shrink: 0;
+  font-size: var(--font-size-sm-9);
+}
+.list {
+  height: 193.5px;
+  padding: 0 0 var(--padding-47xl-5) var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-6xs-1);
+  font-size: var(--font-size-sm-8);
+  font-family: var(--font-roboto);
+}
+.smartRestaurantDescription {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-43xl-2);
+}
+.gradientParent,
+.restaurantContentInner,
+.smartRestaurantDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gradientParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.restaurantContentInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-52xl) 0 0;
+  box-sizing: border-box;
+  min-width: 430px;
+}
+.smartrestaurantpngIcon {
+  width: 596px;
+  position: relative;
+  border-radius: var(--br-mini);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.restaurantContent,
+.restaurantContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.restaurantContent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-43xl);
+}
+.restaurantContentWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 var(--padding-14xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1325px) {
+  .smartrestaurantpngIcon {
+    flex: 1;
+  }
+  .restaurantContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .empoweringRestaurantsWithContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .smartRestaurantDescription {
+    gap: var(--gap-12xl);
+  }
+  .restaurantContentInner {
+    padding-top: var(--padding-27xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .restaurantContent {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .empoweringRestaurantsWithContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+  .smartRestaurantDescription {
+    gap: var(--gap-base);
+  }
+  .restaurantContent {
+    gap: var(--gap-mini);
+  }
+}

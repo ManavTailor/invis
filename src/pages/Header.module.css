@@ -1,0 +1,223 @@
+.experienceAiAdvancement {
+  margin: 0;
+}
+.invithisAiProducts {
+  color: var(--color-peru-200);
+}
+.span {
+  color: var(--color-midnightblue);
+}
+.withInvithisAiProducts {
+  margin: 0;
+}
+.experienceAiAdvancementContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 39.6px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.improveProductivityWe,
+.invithiIsA,
+.solutionsForBusinesses,
+.toHelpBusinesses {
+  margin: 0;
+}
+.invithiIsAContainer {
+  align-self: stretch;
+  height: 137px;
+  position: relative;
+  font-size: 21.1px;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: var(--font-roboto);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mainText {
+  width: 588px;
+  margin: 0 !important;
+  position: absolute;
+  top: 26.9px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 85px 0 140px;
+  box-sizing: border-box;
+  gap: 10.2px;
+  max-width: 100%;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 107px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-11xl);
+  background-color: transparent;
+  margin: 0 !important;
+  position: absolute;
+  top: 283.1px;
+  left: 15px;
+  border-radius: var(--br-6xl);
+  background: linear-gradient(90deg, #f9fe00, #ac6320 68.6%);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.content,
+.contentWrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.content {
+  height: 366px;
+  width: 602px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 15px;
+  position: relative;
+  gap: var(--gap-11xl);
+  max-width: 621px;
+}
+.contentWrapper {
+  width: 842px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-67xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.headerChild {
+  width: 623px;
+  height: 517px;
+  display: none;
+  max-width: 100%;
+}
+.container,
+.header,
+.middle {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.container {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 79.1px 24px 30.8px 19px;
+  gap: 45.8px;
+  max-width: 100%;
+}
+.header,
+.middle {
+  background-color: var(--color-lightcyan);
+  align-items: flex-start;
+}
+.middle {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-44xl) var(--padding-sm);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.header {
+  width: 100%;
+  height: 4261.7px;
+  position: relative;
+  flex-direction: column;
+  padding: 0 0 688px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1325px) {
+  .container,
+  .middle {
+    box-sizing: border-box;
+  }
+  .container {
+    padding-top: 51px;
+    padding-bottom: var(--padding-xl);
+  }
+  .middle {
+    padding-top: var(--padding-22xl);
+    padding-bottom: var(--padding-22xl);
+  }
+  .header {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .container,
+  .middle {
+    padding-top: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .middle {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-8xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .experienceAiAdvancementContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .content {
+    max-width: 100%;
+  }
+  .container,
+  .middle {
+    box-sizing: border-box;
+  }
+  .container {
+    gap: var(--gap-4xl);
+    padding-top: var(--padding-2xl);
+  }
+  .middle {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .experienceAiAdvancementContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+  .invithiIsAContainer {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .contentWrapper {
+    padding-bottom: 56px;
+    box-sizing: border-box;
+  }
+}
